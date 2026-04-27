@@ -118,24 +118,34 @@ sc.pp.neighbors(adata, n_neighbors=10, n_pcs=40)
 sc.tl.leiden(adata)
 ```
 🗺️ UMAP Visualization
+UMAP (Uniform Manifold Approximation and Projection) shows how similar cells group together based on their gene expression profiles.
+Each point represents a cell, and clusters indicate cells with similar biological states or types.
+Closer points = more similar cells; separated clusters = distinct cell populations.
 ```
 sc.tl.umap(adata)sc.pl.umap(adata, color=['leiden'])
 ```
 <img width="434" height="142" alt="image" src="https://github.com/user-attachments/assets/fcd791a9-82f9-491a-88af-df50f1002ed3" />
+
 <img width="438" height="141" alt="image" src="https://github.com/user-attachments/assets/19c344fd-29f6-4d3b-9e66-7136b54d4442" />
 
+<img width="163" height="140" alt="image" src="https://github.com/user-attachments/assets/7e65e71a-0089-46c3-b84a-d06ee5446497" />
 
-📸 Results
+<img width="184" height="148" alt="image" src="https://github.com/user-attachments/assets/919eb92c-aee8-4038-b5aa-
+081df334294d" />
+
+<img width="705" height="191" alt="image" src="https://github.com/user-attachments/assets/c4e3a19c-ff0e-456d-a40a-fa39fc2a2acc" />
+
+<img width="380" height="276" alt="image" src="https://github.com/user-attachments/assets/0760b1bb-a2a9-448b-b9a6-06fe3abf8209" />
+
+
+## quality control
 
 <img width="410" height="212" alt="image" src="https://github.com/user-attachments/assets/fafb820a-f161-4bf7-8d42-38f99c91182b" />
 variance ratio
 <img width="209" height="230" alt="image" src="https://github.com/user-attachments/assets/cc406643-134a-4376-a827-806e85adbe47" />
 <img width="815" height="264" alt="image" src="https://github.com/user-attachments/assets/3a9992d2-130f-4799-9720-c8d14e4128b0" />
 <img width="269" height="245" alt="image" src="https://github.com/user-attachments/assets/3269d9c5-f4a1-42a1-8932-3d30a18720d2" />
-<img width="163" height="140" alt="image" src="https://github.com/user-attachments/assets/7e65e71a-0089-46c3-b84a-d06ee5446497" />
-<img width="184" height="148" alt="image" src="https://github.com/user-attachments/assets/919eb92c-aee8-4038-b5aa-081df334294d" />
-<img width="705" height="191" alt="image" src="https://github.com/user-attachments/assets/c4e3a19c-ff0e-456d-a40a-fa39fc2a2acc" />
-<img width="380" height="276" alt="image" src="https://github.com/user-attachments/assets/0760b1bb-a2a9-448b-b9a6-06fe3abf8209" />
+
 <img width="820" height="230" alt="image" src="https://github.com/user-attachments/assets/384dc3dd-0d33-46fa-8e4d-943712da1c16" />
 <img width="442" height="266" alt="image" src="https://github.com/user-attachments/assets/0d847e4e-76fa-4252-8e18-723f71791b5b" />
 
