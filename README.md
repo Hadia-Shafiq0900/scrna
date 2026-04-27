@@ -148,7 +148,7 @@ sc.tl.umap(adata)sc.pl.umap(adata, color=['leiden'])
 
 <img width="410" height="212" alt="image" src="https://github.com/user-attachments/assets/fafb820a-f161-4bf7-8d42-38f99c91182b" />
 
-##variance ratio
+## variance ratio
 <img width="209" height="230" alt="image" src="https://github.com/user-attachments/assets/cc406643-134a-4376-a827-806e85adbe47" />
 
 ## final results
