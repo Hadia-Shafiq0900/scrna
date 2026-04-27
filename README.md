@@ -139,18 +139,20 @@ sc.tl.umap(adata)sc.pl.umap(adata, color=['leiden'])
 
 
 ## quality control
+<img width="815" height="264" alt="image" src="https://github.com/user-attachments/assets/3a9992d2-130f-4799-9720-c8d14e4128b0" />
+<img width="269" height="245" alt="image" src="https://github.com/user-attachments/assets/3269d9c5-f4a1-42a1-8932-3d30a18720d2" />
+
+## Graphs
 
 <img width="410" height="212" alt="image" src="https://github.com/user-attachments/assets/fafb820a-f161-4bf7-8d42-38f99c91182b" />
 variance ratio
 <img width="209" height="230" alt="image" src="https://github.com/user-attachments/assets/cc406643-134a-4376-a827-806e85adbe47" />
-<img width="815" height="264" alt="image" src="https://github.com/user-attachments/assets/3a9992d2-130f-4799-9720-c8d14e4128b0" />
-<img width="269" height="245" alt="image" src="https://github.com/user-attachments/assets/3269d9c5-f4a1-42a1-8932-3d30a18720d2" />
+
 
 <img width="820" height="230" alt="image" src="https://github.com/user-attachments/assets/384dc3dd-0d33-46fa-8e4d-943712da1c16" />
 <img width="442" height="266" alt="image" src="https://github.com/user-attachments/assets/0d847e4e-76fa-4252-8e18-723f71791b5b" />
 
 
-![QC Plot](results/plots/qc.png)![PCA](results/figures/pca.png)![UMAP](results/figures/umap.png)
 
 🔁 Reproducibility
 This project is reproducible because:
