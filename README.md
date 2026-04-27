@@ -158,7 +158,7 @@ sc.tl.umap(adata)sc.pl.umap(adata, color=['leiden'])
 
 
 
-🔁 Reproducibility
+##🔁 Reproducibility
 This project is reproducible because:
 
 
@@ -176,7 +176,7 @@ Python workflow is documented
 
 
 
-📚 References
+## 📚 References
 
 
 https://anndata.readthedocs.io/en/latest/tutorials/notebooks/getting-started.html
@@ -192,19 +192,4 @@ Basic scRNA-seq Tutorial (updated)
 
 
 
-🚀 Future Work
 
-
-Cell type annotation
-
-
-Differential expression analysis
-
-
-Integration with spatial transcriptomics
-
-
-Machine learning-based predictions
-
-
----If you want next upgrade, I can:- make it **look like a top GitHub repo (badges, styling, icons)**  - or **align it exactly with your Galaxy tool names (for extra marks)**
